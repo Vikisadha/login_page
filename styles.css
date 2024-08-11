@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.left {
+    flex: 1;
+    background: linear-gradient(to bottom right, #ded835, #e65622);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.left .illustration {
+    width: 80%;
+    max-width: 400px;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(255, 255, 255);
+}
+
+.form-container {
+    width: 80%;
+    max-width: 400px;
+}
+
+.logo {
+    height:30%;
+    width: 40%;
+    display: block;
+    margin: 10px auto 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form select {
+    margin-bottom: 20px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+form button {
+    padding: 10px;
+    font-size: 16px;
+    background-color: rgb(225, 104, 17);
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: darkred;
+}
+
+.footer-links {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.footer-links a {
+    color: gray;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
